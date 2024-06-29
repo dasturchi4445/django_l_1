@@ -15,4 +15,23 @@ def register(request):
 
 def main(request):
     return render(request, 'main.html')
- 
+
+
+def payment(request):
+    return render(request, 'payment.html')
+
+
+def group(request):
+    return render(request, 'group.html')
+
+
+def guardians(request):
+    return render(request, 'guardians.html')
+
+
+def rating(request):
+    return render(request, 'rating.html')
+
+
+def settings(request):
+    return render(request, 'settings.html')
